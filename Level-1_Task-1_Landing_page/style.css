@@ -1,0 +1,132 @@
+body{
+    margin:0;
+    padding:0;
+    /* background-image: url("https://www.91-cdn.com/hub/wp-content/uploads/2022/12/Apple-Products-expected-to-launch-in-2023.png"); */
+    /* background-color: #71b9e3; */
+    background-image: linear-gradient(160deg, #7cc4ed 0%, #ffffff 39%, #ffffff 59%, #ffffff 79%, #80D0C7 98%, #ffffff 100%);
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(7, 8, 50);
+    text-decoration: double;
+    height: 50px;
+    font-family: Arial;
+    color: rgb(214, 222, 230);
+    text-decoration:none;
+}
+
+.border{
+    border: 2px solid transparent;
+    padding: 6px;
+}
+.border:hover{
+    border: 2px solid whitesmoke;
+}
+.apple{
+    color: rgb(214, 222, 230);
+    text-decoration: none;
+}
+.search{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    background-color: rgb(23, 24, 77);  
+   
+}
+#sicon{
+    color: aliceblue;
+    background-color: #ac9340;
+    padding: 1px;
+    margin-left: -7px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.se{
+    display: flex;
+    flex-wrap: wrap;
+  
+    padding: 7px;
+    
+}
+.image_back{
+   display:flex;
+   cursor: pointer;
+   justify-content:center;
+    /* box-shadow: 0 4px 6px -1px black; */
+    transition: width 2s;
+}
+
+.img{
+    height: 400px;
+    width: 600px;
+    transition: all 2s linear ;
+
+}
+.img:hover{
+    width: 650px;
+    height: 410px;
+}
+.latest_products{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly; 
+    
+}
+
+
+
+.card {
+   
+    box-shadow: 0 4px 6px -1px black;
+    width: 8%;
+    height: 1%;
+    margin: 5px;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 12px;
+  }
+  
+  .card button {
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .card:hover{
+    transition:all 2s ease;
+    width: 9%;
+  }
+  .footer{
+   
+    padding: 2px;
+    height: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    
+   
+  }
+  
+a{
+    text-decoration: none;
+    color: #1e2e70;
+}
